@@ -1,0 +1,240 @@
+/* Header styles: green background, centered white text */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Navigation bar styles */
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+/* Remove default list styling from nav */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Navigation items: horizontal layout, colored background */
+nav li {
+    display: inline-block;
+    background-color: palevioletred;
+    margin: 0 30px;
+}
+
+/* Navigation links: block display, centered, styled */
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Navigation link hover effect */
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Intro section: card-like container */
+.intro {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/* heading: dark color, centered */
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* Intro paragraph: readable font size and spacing */
+.intro p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Benefits section: card container */
+.benefits {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Benefits heading: dark color, centered */
+.benefits h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* Benefits list: center cards horizontally */
+.benefits ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+/* Benefit cards: inline-block, fixed width, card style */
+.benefits li {
+    display: inline-block;
+    width: 200px; /* Card width */
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f9f9f9;
+    margin: 0 60px 0 60px; /* Space between cards */
+    padding: 15px 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+}
+
+ 
+
+/* Aside section: light background, card style */
+aside {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+/* Aside list items: card style, spaced horizontally */
+aside li {
+    list-style-type: none;
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px 15px;
+    margin: 0 120px;
+    background-color: #f9f9f9;
+}
+
+/* Special style for the second aside item */
+aside li:nth-child(2) {
+    margin: 0 140px;
+    background-color: #e0f7fa; /* Light cyan for the second item */
+}
+
+/* Resources section: card container */
+.resources {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Resources list: remove default styling */
+.resources ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Resource cards: vertical list, card style */
+.resources li {
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f9f9f9;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+}
+
+/* Resource links: green color, no underline */
+.resources a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+/* Resource link hover: underline */
+.resources a:hover {
+    text-decoration: underline;
+}
+
+#faq dt {
+    background-color: #e0f7fa; /* Light cyan for definition terms */
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+#faq dd {
+    background-color: peru;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+/* Definition list: card style */
+dl {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Definition term: bold and dark */
+dl dt {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Definition description: indented, readable */
+dl dd {
+    margin: 0 0 10px 20px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Footer styles: light background, centered text */
+footer {
+    background-color: #f1f1f1;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;          
+    left: 0;
+    right: 0;
+    margin: 0 auto;     
+    bottom: 0;
+}
+
+/* Footer paragraph: small font, no margin */
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Footer links: green color, no underline */
+footer a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+/* Footer link hover: underline */
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Headings and paragraphs: colored background, rounded corners */
+h1, h2, p {
+    background-color: #919e91;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
