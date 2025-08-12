@@ -65,6 +65,7 @@ h2 {
 /* Benefits section: card container */
 .benefits {
     font-family: Arial, sans-serif;
+    text-align: center;
     margin: 20px;
     padding: 20px;
     border: 1px solid #ccc;
@@ -96,6 +97,22 @@ h2 {
     border: 1px solid #ddd;
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+}
+
+.learn-more-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background 0.2s;
+}
+
+.learn-more-btn:hover {
+    background-color: #388e3c;
 }
 
  
